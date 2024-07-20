@@ -1,0 +1,36 @@
+.container{
+
+    color: white;
+    text-align: center;
+    height: 500px;
+  display: grid;
+  grid-template:auto auto / 1fr 1fr 1fr ;
+  padding: 10px;
+  background-color:gray;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+
+
+}
+
+.r1{
+  /*  border-style:solid;*/
+  
+    background-color: blue;
+}
+
+.r2{
+   /* border-style:ridge;*/
+    background-color: brown;
+}
+
+.r3{
+ /*  border-style:double;*/
+   
+    background-color: black;
+}
+
+.rect{
+ /*width: 100px;
+ height: 100px;*/
+}
